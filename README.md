@@ -4,7 +4,7 @@
 
 This project provides a **production-ready HTTP API** that accepts:
 
-- A **programming language identifier** (e.g., `python`, `javascript`, etc.)
+- A **programming language identifier** (e.g., `python`, `Java`, `Cpp` `JavaScript`)
 - A **DSA (Data Structures and Algorithms) problem description**
 
 ...and returns an **executable code skeleton/template** that allows a candidate to start coding immediately — similar to platforms like **LeetCode**, **HackerRank**, or **CodeSignal**.

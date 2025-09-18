@@ -1,7 +1,7 @@
 import { z } from "zod";
 
 const responseSchema = z.object({
-  language: z.enum(["python", "javascript", "typescript", "java", "cpp"]),
+  language: z.enum(["python", "javascript", "java", "cpp"]),
   template: z.string(),
 });
 

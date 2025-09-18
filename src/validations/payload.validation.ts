@@ -18,7 +18,7 @@ export const questionSchema = z.object({
       type: z.string(),
     }),
   }),
-  language: z.enum(["python", "javascript", "typescript", "java", "cpp"]),
+  language: z.enum(["python", "javascript", "java", "cpp"]),
 });
 
 export type QuestionPayload = z.infer<typeof questionSchema>;
