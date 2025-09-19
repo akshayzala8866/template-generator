@@ -5,7 +5,7 @@ import { questionSchema } from "../validations/payload.validation";
 
 export default (router: express.Router) => {
   router.post(
-    "/tempate",
+    "/template",
     validatePayload(questionSchema),
     generateCodeTemplate
   );

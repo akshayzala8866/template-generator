@@ -58,3 +58,13 @@ npm run start
 ```
 npm run build
 ```
+
+## 🛠️ Testing
+
+### This project uses Jest as the testing framework with ts-jest for TypeScript support.
+
+### Run the test-cases
+
+```
+npm run test
+```
