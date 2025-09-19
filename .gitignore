@@ -9,3 +9,6 @@
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# Ignore the test-case snapshots while running the test-cases.
+/src/tests/**/__snapshots__/
